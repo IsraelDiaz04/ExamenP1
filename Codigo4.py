@@ -1,11 +1,11 @@
 import random
 
 def llenar_vector(longitud):
-    """Genera un vector de números aleatorios en el rango [-100, 100]."""
+
     return [random.randint(-100, 100) for _ in range(longitud)]
 
 def mostrar_vector(nombre, vector):
-    """Muestra un vector de forma legible."""
+
     print(f"\nVector {nombre}: {vector}\n")
 
 def main():
@@ -76,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
