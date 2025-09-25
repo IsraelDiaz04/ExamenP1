@@ -1,6 +1,3 @@
- # crea dos listas (arreglos unidimensionales). 
-# Una almacena nombres de personas y la otra almacena la longitud de esos nombres.
-    
 def main():
 
     try:
@@ -28,4 +25,5 @@ def main():
         print("Entrada inválida. Por favor, ingresa un número entero para el tamaño.")
 
 if __name__ == "__main__":
+
     main()
